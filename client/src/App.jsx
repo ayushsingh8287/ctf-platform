@@ -9,7 +9,7 @@ export const LogoutBtn=()=><button className="btn alt sm" onClick={logout}>Logou
 
 function Landing(){return <Shell>
   <section className="hero"><p className="type">&gt; ./start_competition</p><h1>{EVENT}</h1>
-  <p>Enter the world of cybersecurity, where every clue matters and every flag brings you closer to victory.\nSolve challenging puzzles, analyze digital evidence, uncover hidden secrets, explore web vulnerabilities, and test your problem-solving skills. </p>
+  <p>Enter the world of cybersecurity, where every clue matters and every flag brings you closer to victory.Solve challenging puzzles, analyze digital evidence, uncover hidden secrets, explore web vulnerabilities, and test your problem-solving skills. </p>
   <div className="cta"><a className="btn" href="#login">Login</a><a className="btn alt" href="#signup">Sign up</a></div></section>
   <section className="split"><div className="card"><h3>Participants</h3><p>Register through the official Google Form first, then sign up here with the same email.</p></div>
   <div className="card admin"><h3>Organizers</h3><p>Manage teams, challenges and the scoreboard.</p><a className="btn ghost" href="#admin-login">Admin</a></div></section></Shell>;}
